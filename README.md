@@ -5,7 +5,7 @@ This application is a simple manager list for grouping, built using Node.js and 
 
 ## Run app step by step:
 1. Clone repository:
-    git clone https://github.com/00016495/web_CW2.git
+    git clone https://github.com/00016495/g-creator.git
 
 2. Navigate project:
     cd  web_CW2
@@ -31,7 +31,7 @@ Install these dependencies using the command:
 
 
 ## Links:
-- [GitHub](https://github.com/00016495/web_CW2.git)
+- [GitHub](https://github.com/00016495/g-creator.git)
 - [Hosted Application](https://web.sharpist.uz/api/main)
 
 
