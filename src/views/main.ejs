@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container_single admin">
+        <h1>This web application was created to fulfill Web Technology module’s requirements and does not represent an
+            actual company or service</h1>
+    </div>
+
+    <div class="container_single">
+        <div class="container_single">
+            <h2>Create a group</h2>
+
+            <form action="/api/groups" method="post" enctype="application/x-www-form-urlencoded">
+                <input name="group_name" type="text" placeholder="Guruh" autocomplete="off">
+                <input name="group_size" type="text" placeholder="Group size" autocomplete="off">
+                <button type="submit">Create</button>
+            </form>
+        </div>
+    </div>
+    <div class="container_single">
+        <h2>All groups</h2>
+        <div class="groups">
+            <% allGroups.map(group=> { %>
+                <div class="single_group" , data-group-id="<%= group.id %>">
+                    <div class="group-name">
+                        <p>
+                            <%= group.group_name %>
+                        </p>
+                        <input type="text" class="edit-input" value="<%= group.group_name %>" style="display: none;">
+                    </div>
+                    <div class="group-size">
+                        <p>
+                            <%= group.group_size %> students
+                        </p>
+                        <input type="text" class="edit-input" value="<%= group.group_size %>" style="display: none;">
+                    </div>
+                    <div>
+                        <button class="edit-button">Edit</button>
+                        <button class="save-button" style="display: none;">Save</button>
+                    </div>
+                    <div>
+                        <button class="delete-button">Delete</button>
+                    </div>
+                </div>
+                <% }) %>
+        </div>
+    </div>
+    <script src="/assets/app.js"></script>
+</body>
+
+</html>

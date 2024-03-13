@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "group_name": "React N4",
+        "group_size": "33"
+    },
+    {
+        "id": 2,
+        "group_name": "Node.js N2",
+        "group_size": "18"
+    },
+    {
+        "id": 4,
+        "group_name": "Ember N1",
+        "group_size": 6
+    },
+    {
+        "id": 5,
+        "group_name": "Pyton N1",
+        "group_size": 15
+    }
+]

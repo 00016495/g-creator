@@ -1,0 +1,57 @@
+.container_single{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+input, select{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #4CAF50;
+    color: white;
+}
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groups{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.single_group{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single_group p, h3 {
+    width: 150px;
+}
